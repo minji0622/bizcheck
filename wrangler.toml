@@ -1,0 +1,10 @@
+name = "biz-status-proxy"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "RL_KV"
+id = "c5092cf0e1274240990cdfe8c0cf82b8"
+
+# API 키는 아래 명령으로 등록 (절대 이 파일에 직접 쓰지 마세요):
+#   wrangler secret put NTS_API_KEY

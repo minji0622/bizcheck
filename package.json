@@ -1,0 +1,16 @@
+{
+  "name": "biz-status-checker",
+  "version": "1.0.0",
+  "description": "사업자 폐업 여부 조회 서비스",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
